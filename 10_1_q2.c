@@ -23,7 +23,7 @@ void division(){
 	printf("Enter any number : ");
 	scanf("%d",&a);
 	
-	(a%3==0 || a%5==0)?printf("your number is divisible..")
+	(a%3==0 && a%5==0)?printf("your number is divisible..")
 					  :printf("your number is not divisible..");
 }
 
